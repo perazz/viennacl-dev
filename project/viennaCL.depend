@@ -1,0 +1,1461 @@
+# depslib dependency file v1.0
+1689517734 source:/Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/backend.cpp
+	<iostream>
+	"viennacl.hpp"
+	"viennacl_private.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/libviennacl/include/viennacl.hpp
+	<stdlib.h>
+	<OpenCL/cl.h>
+	<CL/cl.h>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/CL/cl.h
+	<OpenCL/cl_platform.h>
+	<CL/cl_platform.h>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/CL/cl_platform.h
+	<AvailabilityMacros.h>
+	<stdint.h>
+	<stddef.h>
+	<altivec.h>
+	<intrin.h>
+	<xmmintrin.h>
+	<intrin.h>
+	<emmintrin.h>
+	<mmintrin.h>
+	<intrin.h>
+	<immintrin.h>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/viennacl_private.hpp
+	<stdlib.h>
+	<OpenCL/cl.h>
+	<CL/cl.h>
+	"viennacl.hpp"
+
+1689517734 source:/Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/blas1.cpp
+	<iostream>
+	"viennacl.hpp"
+	"viennacl_private.hpp"
+	"init_vector.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/linalg/inner_prod.hpp"
+	"viennacl/linalg/norm_1.hpp"
+	"viennacl/linalg/norm_2.hpp"
+	"viennacl/linalg/norm_inf.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/init_vector.hpp
+	"viennacl.hpp"
+	"viennacl/backend/mem_handle.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/backend/mem_handle.hpp
+	<vector>
+	<cassert>
+	"viennacl/forwards.h"
+	"viennacl/tools/shared_ptr.hpp"
+	"viennacl/backend/cpu_ram.hpp"
+	"viennacl/backend/opencl.hpp"
+	"viennacl/backend/cuda.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/forwards.h
+	<cstddef>
+	<cassert>
+	<string>
+	<stdexcept>
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/version.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/meta/enable_if.hpp
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/version.hpp
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/tools/shared_ptr.hpp
+	<cstdlib>
+	<algorithm>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/backend/cpu_ram.hpp
+	<cassert>
+	<vector>
+	<stdlib.h>
+	"viennacl/forwards.h"
+	"viennacl/tools/shared_ptr.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/backend/opencl.hpp
+	<vector>
+	"viennacl/ocl/handle.hpp"
+	"viennacl/ocl/backend.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/handle.hpp
+	<OpenCL/cl.h>
+	<CL/cl.h>
+	<assert.h>
+	<string>
+	<iostream>
+	"viennacl/ocl/forwards.h"
+	"viennacl/ocl/error.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/forwards.h
+	<stddef.h>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/error.hpp
+	<OpenCL/cl.h>
+	<CL/cl.h>
+	<string>
+	<iostream>
+	<exception>
+	<stdexcept>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/backend.hpp
+	<vector>
+	"viennacl/ocl/context.hpp"
+	"viennacl/ocl/enqueue.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/context.hpp
+	<OpenCL/cl.h>
+	<CL/cl.h>
+	<algorithm>
+	<fstream>
+	<vector>
+	<map>
+	<cstdlib>
+	"viennacl/ocl/forwards.h"
+	"viennacl/ocl/error.hpp"
+	"viennacl/ocl/handle.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/program.hpp"
+	"viennacl/ocl/device.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/command_queue.hpp"
+	"viennacl/tools/sha1.hpp"
+	"viennacl/tools/shared_ptr.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/kernel.hpp
+	<OpenCL/cl.h>
+	<CL/cl.h>
+	"viennacl/ocl/forwards.h"
+	"viennacl/ocl/handle.hpp"
+	"viennacl/ocl/program.hpp"
+	"viennacl/ocl/device.hpp"
+	"viennacl/ocl/local_mem.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/program.hpp
+	<string>
+	<vector>
+	"viennacl/ocl/forwards.h"
+	"viennacl/ocl/handle.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/tools/shared_ptr.hpp"
+
+1690389688 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/device.hpp
+	<OpenCL/cl.h>
+	<CL/cl.h>
+	<stdio.h>
+	<vector>
+	<string>
+	<sstream>
+	<assert.h>
+	"viennacl/ocl/device_utils.hpp"
+	"viennacl/ocl/handle.hpp"
+	"viennacl/ocl/error.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/device_utils.hpp
+	<OpenCL/cl.h>
+	<CL/cl.h>
+	<stddef.h>
+	<map>
+	<string>
+	"viennacl/forwards.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/local_mem.hpp
+	"viennacl/forwards.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/platform.hpp
+	<OpenCL/cl.h>
+	<CL/cl.h>
+	<vector>
+	"viennacl/ocl/forwards.h"
+	"viennacl/ocl/device.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/command_queue.hpp
+	<OpenCL/cl.h>
+	<CL/cl.h>
+	<vector>
+	<string>
+	<sstream>
+	"viennacl/ocl/device.hpp"
+	"viennacl/ocl/handle.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/tools/sha1.hpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<iomanip>
+	<sstream>
+	"viennacl/forwards.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/enqueue.hpp
+	<OpenCL/cl.h>
+	<CL/cl.h>
+	"viennacl/ocl/backend.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/command_queue.hpp"
+	"viennacl/ocl/context.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/backend/cuda.hpp
+	<iostream>
+	<vector>
+	<cassert>
+	<stdexcept>
+	<sstream>
+	"viennacl/forwards.h"
+	"viennacl/tools/shared_ptr.hpp"
+	<cuda_runtime.h>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/scalar.hpp
+	<iostream>
+	"viennacl/forwards.h"
+	"viennacl/backend/memory.hpp"
+	"viennacl/meta/result_of.hpp"
+	"viennacl/linalg/scalar_operations.hpp"
+	"viennacl/traits/handle.hpp"
+	"viennacl/ocl/backend.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/backend/memory.hpp
+	<vector>
+	<cassert>
+	"viennacl/forwards.h"
+	"viennacl/backend/mem_handle.hpp"
+	"viennacl/context.hpp"
+	"viennacl/traits/handle.hpp"
+	"viennacl/traits/context.hpp"
+	"viennacl/backend/util.hpp"
+	"viennacl/backend/cpu_ram.hpp"
+	"viennacl/backend/opencl.hpp"
+	"viennacl/ocl/backend.hpp"
+	"viennacl/backend/cuda.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/context.hpp
+	<vector>
+	<stddef.h>
+	<assert.h>
+	"viennacl/forwards.h"
+	"viennacl/ocl/forwards.h"
+	"viennacl/backend/mem_handle.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/traits/handle.hpp
+	<string>
+	<fstream>
+	<sstream>
+	"viennacl/forwards.h"
+	"viennacl/backend/mem_handle.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/traits/context.hpp
+	<string>
+	<fstream>
+	<sstream>
+	"viennacl/forwards.h"
+	"viennacl/context.hpp"
+	"viennacl/traits/handle.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/backend/util.hpp
+	<vector>
+	<cassert>
+	"viennacl/forwards.h"
+	"viennacl/backend/mem_handle.hpp"
+	"viennacl/backend/opencl.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/meta/result_of.hpp
+	<string>
+	<fstream>
+	<sstream>
+	"viennacl/forwards.h"
+	<boost/numeric/ublas/matrix_sparse.hpp>
+	<boost/numeric/ublas/matrix.hpp>
+	<armadillo>
+	<Eigen/Core>
+	<Eigen/SparseCore>
+	<boost/numeric/mtl/mtl.hpp>
+	<OpenCL/cl.h>
+	"CL/cl.h"
+	<vector>
+	<map>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/scalar_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/traits/handle.hpp"
+	"viennacl/traits/stride.hpp"
+	"viennacl/linalg/host_based/scalar_operations.hpp"
+	"viennacl/linalg/opencl/scalar_operations.hpp"
+	"viennacl/linalg/cuda/scalar_operations.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/tools/tools.hpp
+	<string>
+	<fstream>
+	<sstream>
+	"viennacl/forwards.h"
+	"viennacl/tools/adapter.hpp"
+	<vector>
+	<map>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/tools/adapter.hpp
+	<string>
+	<fstream>
+	<sstream>
+	<assert.h>
+	"viennacl/forwards.h"
+	<vector>
+	<map>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/meta/predicate.hpp
+	<string>
+	<fstream>
+	<sstream>
+	"viennacl/forwards.h"
+	<OpenCL/cl.h>
+	"CL/cl.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/traits/size.hpp
+	<string>
+	<fstream>
+	<sstream>
+	"viennacl/forwards.h"
+	"viennacl/meta/result_of.hpp"
+	"viennacl/meta/predicate.hpp"
+	<boost/numeric/ublas/matrix_sparse.hpp>
+	<boost/numeric/ublas/matrix.hpp>
+	<armadillo>
+	<Eigen/Core>
+	<Eigen/SparseCore>
+	<boost/numeric/mtl/mtl.hpp>
+	<vector>
+	<map>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/traits/start.hpp
+	<string>
+	<fstream>
+	<sstream>
+	"viennacl/forwards.h"
+	"viennacl/meta/result_of.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/traits/stride.hpp
+	<string>
+	<fstream>
+	<sstream>
+	"viennacl/forwards.h"
+	"viennacl/meta/result_of.hpp"
+	<vector>
+	<map>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/host_based/scalar_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/traits/stride.hpp"
+	"viennacl/linalg/host_based/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/host_based/common.hpp
+	"viennacl/traits/handle.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/scalar_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/ocl/device.hpp"
+	"viennacl/ocl/handle.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/opencl/kernels/scalar.hpp"
+	"viennacl/linalg/opencl/common.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/result_of.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/traits/handle.hpp"
+	"viennacl/traits/stride.hpp"
+	"viennacl/traits/handle.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/scalar.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ocl/utils.hpp
+	<vector>
+	<string>
+	"viennacl/ocl/backend.hpp"
+	"viennacl/ocl/device.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/common.hpp
+	<cmath>
+	"viennacl/forwards.h"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/traits/handle.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/cuda/scalar_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/traits/stride.hpp"
+	"viennacl/linalg/cuda/common.hpp"
+	<cuda_runtime.h>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/cuda/common.hpp
+	<sstream>
+	<cuda_runtime.h>
+	"viennacl/backend/cuda.hpp"
+	"viennacl/traits/handle.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/vector.hpp
+	"viennacl/forwards.h"
+	"viennacl/detail/vector_def.hpp"
+	"viennacl/backend/memory.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/tools/entry_proxy.hpp"
+	"viennacl/linalg/detail/op_executor.hpp"
+	"viennacl/linalg/vector_operations.hpp"
+	"viennacl/meta/result_of.hpp"
+	"viennacl/context.hpp"
+	"viennacl/traits/handle.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/detail/vector_def.hpp
+	"viennacl/forwards.h"
+	"viennacl/tools/entry_proxy.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/tools/entry_proxy.hpp
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/detail/op_executor.hpp
+	"viennacl/forwards.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/vector_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/range.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/traits/handle.hpp"
+	"viennacl/traits/stride.hpp"
+	"viennacl/linalg/detail/op_executor.hpp"
+	"viennacl/linalg/host_based/vector_operations.hpp"
+	"viennacl/linalg/opencl/vector_operations.hpp"
+	"viennacl/linalg/cuda/vector_operations.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/range.hpp
+	<vector>
+	<stddef.h>
+	<assert.h>
+	"viennacl/forwards.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/host_based/vector_operations.hpp
+	<cmath>
+	<algorithm>
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/linalg/host_based/common.hpp"
+	"viennacl/linalg/detail/op_applier.hpp"
+	"viennacl/traits/stride.hpp"
+	<omp.h>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/detail/op_applier.hpp
+	"viennacl/forwards.h"
+	<cmath>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/vector_operations.hpp
+	<cmath>
+	"viennacl/forwards.h"
+	"viennacl/detail/vector_def.hpp"
+	"viennacl/ocl/device.hpp"
+	"viennacl/ocl/handle.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/opencl/common.hpp"
+	"viennacl/linalg/opencl/kernels/vector.hpp"
+	"viennacl/linalg/opencl/kernels/vector_element.hpp"
+	"viennacl/linalg/opencl/kernels/scan.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/traits/handle.hpp"
+	"viennacl/traits/stride.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/vector.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/scheduler/forwards.h"
+	"viennacl/scheduler/io.hpp"
+	"viennacl/scheduler/preset.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/scheduler/forwards.h
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/forwards.h"
+	<vector>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/scheduler/io.hpp
+	<iostream>
+	<sstream>
+	"viennacl/forwards.h"
+	"viennacl/scheduler/forwards.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/scheduler/preset.hpp
+	"viennacl/device_specific/forwards.h"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/scheduler/forwards.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/forwards.h
+	<list>
+	<map>
+	<set>
+	<stdexcept>
+	"viennacl/scheduler/io.hpp"
+	"viennacl/ocl/forwards.h"
+	"viennacl/tools/shared_ptr.hpp"
+	"viennacl/scheduler/forwards.h"
+	"viennacl/backend/mem_handle.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/vector_element.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/scan.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/cuda/vector_operations.hpp
+	<cmath>
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/traits/stride.hpp"
+	"viennacl/linalg/cuda/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/inner_prod.hpp
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/meta/tag_of.hpp"
+	"viennacl/meta/result_of.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/meta/tag_of.hpp
+	<vector>
+	<map>
+	"viennacl/forwards.h"
+	<boost/numeric/ublas/matrix_sparse.hpp>
+	<boost/numeric/ublas/matrix.hpp>
+	<boost/numeric/ublas/vector.hpp>
+	<armadillo>
+	<Eigen/Core>
+	<Eigen/SparseCore>
+	<boost/numeric/mtl/mtl.hpp>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/norm_1.hpp
+	<cmath>
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/meta/tag_of.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/norm_2.hpp
+	<cmath>
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/meta/tag_of.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/norm_inf.hpp
+	<cmath>
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/meta/tag_of.hpp"
+
+1689517734 source:/Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/blas1_host.cpp
+	<iostream>
+	"viennacl.hpp"
+	"viennacl_private.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/linalg/inner_prod.hpp"
+	"viennacl/linalg/norm_1.hpp"
+	"viennacl/linalg/norm_2.hpp"
+	"viennacl/linalg/norm_inf.hpp"
+
+1689517734 source:/Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/blas1_opencl.cpp
+	<iostream>
+	"viennacl.hpp"
+	"viennacl_private.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/linalg/inner_prod.hpp"
+	"viennacl/linalg/norm_1.hpp"
+	"viennacl/linalg/norm_2.hpp"
+	"viennacl/linalg/norm_inf.hpp"
+
+1689517734 source:/Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/blas2.cpp
+	<iostream>
+	"viennacl.hpp"
+	"viennacl_private.hpp"
+	"init_vector.hpp"
+	"init_matrix.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/matrix.hpp"
+	"viennacl/linalg/direct_solve.hpp"
+	"viennacl/linalg/prod.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/init_matrix.hpp
+	"viennacl.hpp"
+	"viennacl/backend/mem_handle.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/matrix.hpp
+	"viennacl/forwards.h"
+	"viennacl/detail/matrix_def.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/linalg/matrix_operations.hpp"
+	"viennacl/linalg/sparse_matrix_operations.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/tools/matrix_size_deducer.hpp"
+	"viennacl/meta/result_of.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/traits/handle.hpp"
+	"viennacl/traits/row_major.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/detail/matrix_def.hpp
+	"viennacl/forwards.h"
+	"viennacl/tools/entry_proxy.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/matrix_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/vector_proxy.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/result_of.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/traits/handle.hpp"
+	"viennacl/traits/stride.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/linalg/host_based/matrix_operations.hpp"
+	"viennacl/linalg/opencl/matrix_operations.hpp"
+	"viennacl/linalg/cuda/matrix_operations.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/vector_proxy.hpp
+	"viennacl/forwards.h"
+	"viennacl/range.hpp"
+	"viennacl/slice.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/tools/entry_proxy.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/slice.hpp
+	<vector>
+	<stddef.h>
+	<assert.h>
+	"viennacl/forwards.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/host_based/matrix_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/vector_proxy.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/result_of.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/traits/handle.hpp"
+	"viennacl/traits/stride.hpp"
+	"viennacl/linalg/detail/op_applier.hpp"
+	"viennacl/linalg/host_based/common.hpp"
+	"viennacl/linalg/prod.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/prod.hpp
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/meta/tag_of.hpp"
+	<vector>
+	<map>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/matrix_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/ocl/device.hpp"
+	"viennacl/ocl/handle.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/vector_proxy.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/result_of.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/traits/handle.hpp"
+	"viennacl/traits/stride.hpp"
+	"viennacl/linalg/opencl/common.hpp"
+	"viennacl/linalg/opencl/kernels/svd.hpp"
+	"viennacl/linalg/opencl/kernels/vector.hpp"
+	"viennacl/linalg/opencl/kernels/matrix.hpp"
+	"viennacl/linalg/opencl/kernels/matrix_element.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/svd.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/matrix.hpp
+	"viennacl/scheduler/preset.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+	"viennacl/device_specific/execution_handler.hpp"
+	"viennacl/device_specific/builtin_database/matrix_product.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/execution_handler.hpp
+	<map>
+	"viennacl/tools/shared_ptr.hpp"
+	"viennacl/device_specific/lazy_program_compiler.hpp"
+	"viennacl/device_specific/templates/template_base.hpp"
+	"viennacl/device_specific/utils.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/lazy_program_compiler.hpp
+	<map>
+	"viennacl/ocl/context.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/templates/template_base.hpp
+	<list>
+	<set>
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/device.hpp"
+	"viennacl/ocl/device_utils.hpp"
+	"viennacl/scheduler/forwards.h"
+	"viennacl/scheduler/io.hpp"
+	"viennacl/device_specific/lazy_program_compiler.hpp"
+	"viennacl/device_specific/mapped_objects.hpp"
+	"viennacl/device_specific/tree_parsing.hpp"
+	"viennacl/device_specific/utils.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/mapped_objects.hpp
+	<string>
+	"viennacl/scheduler/forwards.h"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/utils.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/utils.hpp
+	<sstream>
+	"viennacl/detail/matrix_def.hpp"
+	"viennacl/detail/vector_def.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/ocl/forwards.h"
+	"viennacl/scheduler/forwards.h"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/handle.hpp"
+	"viennacl/traits/row_major.hpp"
+	"viennacl/tools/tools.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/traits/row_major.hpp
+	<string>
+	<fstream>
+	<sstream>
+	"viennacl/forwards.h"
+	"viennacl/meta/result_of.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/tree_parsing.hpp
+	<set>
+	"viennacl/forwards.h"
+	"viennacl/scheduler/forwards.h"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/utils.hpp"
+	"viennacl/device_specific/mapped_objects.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/matrix_product.hpp
+	"viennacl/device_specific/builtin_database/devices/gpu/amd/northern_islands/barts.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/nvidia/fermi/tesla_c2050.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/nvidia/fermi/geforce_gtx_470.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/nvidia/maxwell/geforce_gtx_750_ti.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/amd/northern_islands/scrapper.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/nvidia/tesla/geforce_gtx_260.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/amd/southern_islands/tahiti.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/amd/northern_islands/devastator.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/nvidia/kepler/tesla_k20m.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/nvidia/fermi/geforce_gtx_580.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/amd/volcanic_islands/hawaii.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/amd/evergreen/cypress.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/amd/evergreen/cedar.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/nvidia/fermi/geforce_gt_540m.hpp"
+	"viennacl/ocl/device_utils.hpp"
+	"viennacl/scheduler/forwards.h"
+	"viennacl/device_specific/builtin_database/devices/accelerator/fallback.hpp"
+	"viennacl/device_specific/builtin_database/devices/cpu/fallback.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/fallback.hpp"
+	"viennacl/device_specific/builtin_database/devices/gpu/nvidia/fermi/geforce_gt_540m.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/amd/northern_islands/barts.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/templates/matrix_product_template.hpp
+	<vector>
+	"viennacl/scheduler/forwards.h"
+	"viennacl/detail/matrix_def.hpp"
+	"viennacl/matrix_proxy.hpp"
+	"viennacl/device_specific/templates/template_base.hpp"
+	"viennacl/device_specific/mapped_objects.hpp"
+	"viennacl/device_specific/utils.hpp"
+	"viennacl/device_specific/tree_parsing.hpp"
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/matrix_proxy.hpp
+	"viennacl/forwards.h"
+	"viennacl/range.hpp"
+	"viennacl/slice.hpp"
+	"viennacl/detail/matrix_def.hpp"
+	"viennacl/traits/size.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/common.hpp
+	"viennacl/ocl/device_utils.hpp"
+	"viennacl/scheduler/forwards.h"
+	"viennacl/device_specific/forwards.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/nvidia/fermi/tesla_c2050.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/nvidia/fermi/geforce_gtx_470.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/nvidia/maxwell/geforce_gtx_750_ti.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/amd/northern_islands/scrapper.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/nvidia/tesla/geforce_gtx_260.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/amd/southern_islands/tahiti.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/amd/northern_islands/devastator.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/nvidia/kepler/tesla_k20m.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/nvidia/fermi/geforce_gtx_580.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/amd/volcanic_islands/hawaii.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/amd/evergreen/cypress.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/amd/evergreen/cedar.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/nvidia/fermi/geforce_gt_540m.hpp
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/accelerator/fallback.hpp
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/cpu/fallback.hpp
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/device_specific/builtin_database/devices/gpu/fallback.hpp
+	"viennacl/device_specific/forwards.h"
+	"viennacl/device_specific/builtin_database/common.hpp"
+	"viennacl/device_specific/templates/matrix_product_template.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/matrix_element.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+	"viennacl/linalg/opencl/kernels/matrix.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/cuda/matrix_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/vector_proxy.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/result_of.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/traits/handle.hpp"
+	"viennacl/traits/stride.hpp"
+	"viennacl/linalg/cuda/common.hpp"
+	"viennacl/linalg/cuda/vector_operations.hpp"
+	"viennacl/linalg/cuda/matrix_operations_row.hpp"
+	"viennacl/linalg/cuda/matrix_operations_col.hpp"
+	"viennacl/linalg/cuda/matrix_operations_prod.hpp"
+	"viennacl/linalg/cuda/matrix_operations_prod.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/cuda/matrix_operations_row.hpp
+	"viennacl/forwards.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/cuda/matrix_operations_col.hpp
+	"viennacl/forwards.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/cuda/matrix_operations_prod.hpp
+	"viennacl/forwards.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/sparse_matrix_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/matrix.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/host_based/sparse_matrix_operations.hpp"
+	"viennacl/linalg/opencl/sparse_matrix_operations.hpp"
+	"viennacl/linalg/cuda/sparse_matrix_operations.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/host_based/sparse_matrix_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/host_based/common.hpp"
+	"viennacl/linalg/host_based/vector_operations.hpp"
+	"viennacl/linalg/host_based/spgemm_vector.hpp"
+	<vector>
+	<omp.h>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/host_based/spgemm_vector.hpp
+	"viennacl/forwards.h"
+	"viennacl/linalg/host_based/common.hpp"
+	"immintrin.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/sparse_matrix_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/ocl/device.hpp"
+	"viennacl/ocl/handle.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/host_based/common.hpp"
+	"viennacl/linalg/opencl/kernels/compressed_matrix.hpp"
+	"viennacl/linalg/opencl/kernels/coordinate_matrix.hpp"
+	"viennacl/linalg/opencl/kernels/ell_matrix.hpp"
+	"viennacl/linalg/opencl/kernels/sliced_ell_matrix.hpp"
+	"viennacl/linalg/opencl/kernels/hyb_matrix.hpp"
+	"viennacl/linalg/opencl/kernels/compressed_compressed_matrix.hpp"
+	"viennacl/linalg/opencl/common.hpp"
+	"viennacl/linalg/opencl/vector_operations.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/compressed_matrix.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+	"viennacl/linalg/opencl/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/coordinate_matrix.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+	"viennacl/linalg/opencl/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/ell_matrix.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+	"viennacl/linalg/opencl/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/sliced_ell_matrix.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+	"viennacl/linalg/opencl/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/hyb_matrix.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+	"viennacl/linalg/opencl/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/compressed_compressed_matrix.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/cuda/sparse_matrix_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/cuda/common.hpp"
+	"viennacl/linalg/cuda/vector_operations.hpp"
+	"viennacl/linalg/cuda/sparse_matrix_operations_solve.hpp"
+	"viennacl/linalg/cuda/spgemm_rmerge.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/cuda/sparse_matrix_operations_solve.hpp
+	"viennacl/forwards.h"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/cuda/spgemm_rmerge.hpp
+	<stdexcept>
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/cuda/common.hpp"
+	"viennacl/tools/timer.hpp"
+	"viennacl/linalg/cuda/sparse_matrix_operations_solve.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/tools/timer.hpp
+	<iostream>
+	<windows.h>
+	<sys/time.h>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/tools/matrix_size_deducer.hpp
+	<string>
+	<fstream>
+	<sstream>
+	<cmath>
+	<vector>
+	<map>
+	"viennacl/forwards.h"
+	"viennacl/tools/adapter.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/direct_solve.hpp
+	"viennacl/forwards.h"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/vector_proxy.hpp"
+	"viennacl/matrix.hpp"
+	"viennacl/matrix_proxy.hpp"
+	"viennacl/linalg/prod.hpp"
+	"viennacl/linalg/host_based/direct_solve.hpp"
+	"viennacl/linalg/opencl/direct_solve.hpp"
+	"viennacl/linalg/cuda/direct_solve.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/host_based/direct_solve.hpp
+	"viennacl/vector.hpp"
+	"viennacl/matrix.hpp"
+	"viennacl/linalg/host_based/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/direct_solve.hpp
+	"viennacl/vector.hpp"
+	"viennacl/matrix.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/device.hpp"
+	"viennacl/ocl/handle.hpp"
+	"viennacl/linalg/opencl/kernels/matrix_solve.hpp"
+	"viennacl/linalg/opencl/kernels/matrix.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/matrix_solve.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+	"viennacl/linalg/opencl/kernels/matrix.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/cuda/direct_solve.hpp
+	"viennacl/forwards.h"
+	"viennacl/vector.hpp"
+	"viennacl/matrix.hpp"
+	"viennacl/linalg/cuda/common.hpp"
+
+1689517734 source:/Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/blas2_host.cpp
+	<iostream>
+	"viennacl.hpp"
+	"viennacl_private.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/matrix.hpp"
+	"viennacl/linalg/direct_solve.hpp"
+	"viennacl/linalg/prod.hpp"
+
+1689517734 source:/Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/blas3.cpp
+	<iostream>
+	"viennacl.hpp"
+	"viennacl_private.hpp"
+	"init_matrix.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/matrix.hpp"
+	"viennacl/linalg/direct_solve.hpp"
+	"viennacl/linalg/prod.hpp"
+
+1689517734 source:/Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/blas3_host.cpp
+	<iostream>
+	"viennacl.hpp"
+	"viennacl_private.hpp"
+	"blas3.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/matrix.hpp"
+	"viennacl/linalg/direct_solve.hpp"
+	"viennacl/linalg/prod.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/blas3.hpp
+	<iostream>
+	"viennacl.hpp"
+	"viennacl_private.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/matrix.hpp"
+	"viennacl/linalg/direct_solve.hpp"
+	"viennacl/linalg/prod.hpp"
+
+1689517734 source:/Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/blas3_opencl.cpp
+	<iostream>
+	"viennacl.hpp"
+	"viennacl_private.hpp"
+	"blas3.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/matrix.hpp"
+	"viennacl/linalg/direct_solve.hpp"
+	"viennacl/linalg/prod.hpp"
+
+1690389629 source:/Users/federico/Documents/GitHub/viennacl-dev/project/main.cpp
+	<iostream>
+	<vector>
+	<map>
+	<cmath>
+	"viennacl/scalar.hpp"
+	"viennacl/compressed_matrix.hpp"
+	"viennacl/compressed_compressed_matrix.hpp"
+	"viennacl/coordinate_matrix.hpp"
+	"viennacl/ell_matrix.hpp"
+	"viennacl/sliced_ell_matrix.hpp"
+	"viennacl/hyb_matrix.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/vector_proxy.hpp"
+	"viennacl/linalg/prod.hpp"
+	"viennacl/linalg/norm_2.hpp"
+	"viennacl/linalg/ilu.hpp"
+	"viennacl/linalg/detail/ilu/common.hpp"
+	"viennacl/io/matrix_market.hpp"
+	"viennacl/tools/random.hpp"
+
+1689517734 source:/Users/federico/Documents/GitHub/viennacl-dev/libviennacl/src/blas2_opencl.cpp
+	<iostream>
+	"viennacl.hpp"
+	"viennacl_private.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/matrix.hpp"
+	"viennacl/linalg/direct_solve.hpp"
+	"viennacl/linalg/prod.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/compressed_matrix.hpp
+	<vector>
+	<list>
+	<map>
+	"viennacl/forwards.h"
+	"viennacl/vector.hpp"
+	"viennacl/linalg/sparse_matrix_operations.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/tools/entry_proxy.hpp"
+	<boost/numeric/ublas/matrix_sparse.hpp>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/compressed_compressed_matrix.hpp
+	<vector>
+	<list>
+	<map>
+	"viennacl/forwards.h"
+	"viennacl/vector.hpp"
+	"viennacl/linalg/sparse_matrix_operations.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/tools/entry_proxy.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/coordinate_matrix.hpp
+	<map>
+	<vector>
+	<list>
+	"viennacl/forwards.h"
+	"viennacl/vector.hpp"
+	"viennacl/linalg/sparse_matrix_operations.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/ell_matrix.hpp
+	"viennacl/forwards.h"
+	"viennacl/vector.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/sparse_matrix_operations.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/sliced_ell_matrix.hpp
+	"viennacl/forwards.h"
+	"viennacl/vector.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/sparse_matrix_operations.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/hyb_matrix.hpp
+	"viennacl/forwards.h"
+	"viennacl/vector.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/sparse_matrix_operations.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/ilu.hpp
+	"viennacl/linalg/detail/ilu/ilut.hpp"
+	"viennacl/linalg/detail/ilu/ilu0.hpp"
+	"viennacl/linalg/detail/ilu/block_ilu.hpp"
+	"viennacl/linalg/detail/ilu/chow_patel_ilu.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/detail/ilu/ilut.hpp
+	<vector>
+	<cmath>
+	<iostream>
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/detail/ilu/common.hpp"
+	"viennacl/compressed_matrix.hpp"
+	"viennacl/linalg/host_based/common.hpp"
+	<map>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/detail/ilu/common.hpp
+	<vector>
+	<cmath>
+	<iostream>
+	<map>
+	<list>
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+	"viennacl/backend/memory.hpp"
+	"viennacl/linalg/host_based/common.hpp"
+	"viennacl/linalg/misc_operations.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/misc_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/matrix.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/host_based/misc_operations.hpp"
+	"viennacl/linalg/opencl/misc_operations.hpp"
+	"viennacl/linalg/cuda/misc_operations.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/host_based/misc_operations.hpp
+	<list>
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/host_based/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/misc_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/ocl/device.hpp"
+	"viennacl/ocl/handle.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/opencl/kernels/ilu.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/kernels/ilu.hpp
+	"viennacl/tools/tools.hpp"
+	"viennacl/ocl/kernel.hpp"
+	"viennacl/ocl/platform.hpp"
+	"viennacl/ocl/utils.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/cuda/misc_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/vector.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/cuda/common.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/detail/ilu/ilu0.hpp
+	<vector>
+	<cmath>
+	<iostream>
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/detail/ilu/common.hpp"
+	"viennacl/compressed_matrix.hpp"
+	"viennacl/backend/memory.hpp"
+	"viennacl/linalg/host_based/common.hpp"
+	<map>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/detail/ilu/block_ilu.hpp
+	<vector>
+	<cmath>
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/detail/ilu/common.hpp"
+	"viennacl/linalg/detail/ilu/ilu0.hpp"
+	"viennacl/linalg/detail/ilu/ilut.hpp"
+	<map>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/detail/ilu/chow_patel_ilu.hpp
+	<vector>
+	<cmath>
+	<iostream>
+	"viennacl/forwards.h"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/detail/ilu/common.hpp"
+	"viennacl/linalg/ilu_operations.hpp"
+	"viennacl/linalg/prod.hpp"
+	"viennacl/backend/memory.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/ilu_operations.hpp
+	"viennacl/forwards.h"
+	"viennacl/range.hpp"
+	"viennacl/scalar.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/traits/handle.hpp"
+	"viennacl/traits/stride.hpp"
+	"viennacl/linalg/host_based/ilu_operations.hpp"
+	"viennacl/linalg/opencl/ilu_operations.hpp"
+	"viennacl/linalg/cuda/ilu_operations.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/host_based/ilu_operations.hpp
+	<cmath>
+	<algorithm>
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/linalg/host_based/common.hpp"
+	"viennacl/linalg/vector_operations.hpp"
+	"viennacl/traits/stride.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/opencl/ilu_operations.hpp
+	<cmath>
+	<algorithm>
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/linalg/opencl/common.hpp"
+	"viennacl/linalg/opencl/kernels/ilu.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/traits/stride.hpp"
+	"viennacl/linalg/vector_operations.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/linalg/cuda/ilu_operations.hpp
+	<cmath>
+	<algorithm>
+	"viennacl/forwards.h"
+	"viennacl/scalar.hpp"
+	"viennacl/tools/tools.hpp"
+	"viennacl/meta/predicate.hpp"
+	"viennacl/meta/enable_if.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/start.hpp"
+	"viennacl/linalg/vector_operations.hpp"
+	"viennacl/traits/stride.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/io/matrix_market.hpp
+	<algorithm>
+	<string>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<map>
+	<cctype>
+	"viennacl/tools/adapter.hpp"
+	"viennacl/traits/size.hpp"
+	"viennacl/traits/fill.hpp"
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/traits/fill.hpp
+	<string>
+	<fstream>
+	<sstream>
+	"viennacl/forwards.h"
+	"viennacl/meta/result_of.hpp"
+	<Eigen/Core>
+	<Eigen/SparseCore>
+	<vector>
+	<map>
+
+1689517734 /Users/federico/Documents/GitHub/viennacl-dev/viennacl/tools/random.hpp
+	<ctime>
+	<cstdlib>
+	<cmath>
+

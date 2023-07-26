@@ -956,6 +956,7 @@ public:
   /** @brief ViennaCL convenience function: Returns true if the device supports double precision */
   bool double_support() const
   {
+
     std::string ext = extensions();
 
     if (ext.find("cl_khr_fp64") != std::string::npos || ext.find("cl_amd_fp64") != std::string::npos)
